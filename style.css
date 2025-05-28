@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Lily+Script+One|Cabin|Varela+Round');
+
+body {
+	transform: translateY(100px);
+	background: url(bgimg2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+a {
+	color: #212121;
+	transition: opacity linear 0.3s;
+}
+
+a:hover {
+	opacity: 0.8;
+	color: #212121;	
+}
+
+#about, #skills, #projects, #contact {
+	display: none;
+}
+
+
+.title {
+	 font-family: 'Lily Script One', cursive;
+     font-size: 4em;
+     margin: 20px 0px;
+	 color: #ffffff;
+}
+
+#profile img {
+	margin: 0px auto;
+	display: block;	
+	border: solid 8px #607D8B;
+}
+
+
+#home p {
+	font-family: 'Cabin';
+	font-size: 15px;
+	color: #ffffff;
+}
+
+#skills i {
+
+	font-size: 40px;
+	margin: 10px 4px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	color: #ECEFF1;
+	background-color: #313131;
+	font-size: 15px;
+	font-family: 'Varela Round';
+	display: inline-block;
+	margin: 5px 5px;
+	border:  solid 2px #313131;
+	border-radius: 18px;
+	padding: 10px 10px;
+}
+
+#contact ul li {
+	border-radius: 15px;
+	padding: 10px 23px;
+}
+
+#contact .fa {
+	font-size: 18px;
+}
+
+
+#navigate {
+	margin: 10px 0;
+}
+
+#navigate .fa {
+	font-size: 20px;
+	border: solid 1px #616161;
+	padding: 15px 25px;
+	margin: 0px 5px;
+	color: #FBDB93;
+	transition: opacity linear 0.3s;
+	border-radius: 10px;
+}
+
+#navigate .fa:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.icon-html5-alt {
+	color: #01579B;
+}
+
+.icon-css3-alt {
+	color: #FF5722;
+}
+
+.icon-javascript-alt {
+	color: #FFC107;
+}
+
+.icon-java {
+	color: #4E71FF;
+}
+
+.icon-csharp {
+	color: #64E2B7;
+}
+
+.icon-c {
+	color: #6FE6FC;
+}
+
+#envelope li {
+	background: #E94132;
+	border-color: #E94132;
+}
+
+#github li {
+	background: #0D2636;
+	border-color: #0D2636;
+}
